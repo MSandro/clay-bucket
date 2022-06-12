@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "claybucket:raw_claybucket"
+	},
+	"result": "claybucket:claybucket",
+	"experience": 0.35,
+	"cookingtime": 2
+}

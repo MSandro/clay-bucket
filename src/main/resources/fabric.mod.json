@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "claybucket",
+  "version": "${version}",
+  "name": "Clay Bucket",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/clay-bucket/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.msandro.claybucket.client.ClayBucketClient"
+    ],
+    "main": [
+      "com.msandro.claybucket.ClayBucket"
+    ]
+  },
+  "mixins": [
+    "clay-bucket.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.7",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
